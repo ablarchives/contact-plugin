@@ -1,0 +1,29 @@
+<?php Block::put('breadcrumb') ?>
+    <ul>
+        <li><a href="<?= Backend::url('albrightlabs/contact/messages') ?>">Messages</a></li>
+        <li><?= e($this->pageTitle) ?></li>
+    </ul>
+<?php Block::endPut() ?>
+
+<?php if (!$this->fatalError): ?>
+
+    <div class="form-buttons">
+        <div class="loading-indicator-container">
+            <a
+                href="<?= Backend::URL('albrightlabs/contact/messages') ?>"
+                class="btn btn-default oc-icon-chevron-left">
+                Back to Messages
+            </a>
+        </div>
+    </div>
+
+    <div class="form-preview">
+        <?= $this->formRenderPreview() ?>
+    </div>
+
+<?php else: ?>
+
+    <p class="flash-message static error"><?= e($this->fatalError) ?></p>
+    <p><a href="<?= Backend::url('albrightlabs/contact/messages') ?>" class="btn btn-default">Return to messages list</a></p>
+
+<?php endif ?>

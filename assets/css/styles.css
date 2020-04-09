@@ -1,0 +1,32 @@
+/**
+ * GENERIC FORM
+ * Typical form styles, overrides Bootstrap styles
+ */
+.generic-form {
+	display: block;
+	width: 100%;
+}
+.generic-form .title {
+	font-weight: 600;
+	font-size: 110%;
+}
+.generic-form .form-group label {
+	margin-bottom: 0;
+	font-weight: 600;
+}
+.generic-form .form-group .form-control {
+	line-height: 27px;
+	border-width: 2px;
+	border-color: #eee;
+	color: #000000;
+}
+.generic-form .form-group .form-control:not(textarea) {
+	height: 45px !important;
+}
+.generic-form .form-group .form-control:focus {
+	border-color: #66afe9;
+	box-shadow: none;
+}
+.generic-form .form-group select {
+	height: 45px !important;
+}

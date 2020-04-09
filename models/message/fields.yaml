@@ -1,0 +1,23 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    created_at:
+        label: Sent
+        disabled: true
+        type: datepicker
+        format: M jS, Y g:ia
+    name:
+        label: Name
+        disabled: true
+    email:
+        label: Email
+        disabled: true
+    phone:
+        label: Phone
+        disabled: true
+    message:
+        label: Message
+        type: textarea
+        disabled: true

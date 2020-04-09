@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Message
+
+# Model Form Field configuration
+form: $/albrightlabs/contact/models/message/fields.yaml
+
+# Model Class name
+modelClass: Albrightlabs\Contact\Models\Message
+
+# Default redirect location
+defaultRedirect: albrightlabs/contact/messages
+
+# Create page
+create:
+    title: Create Message
+    redirect: albrightlabs/contact/messages/update/:id
+    redirectClose: albrightlabs/contact/messages
+
+# Update page
+update:
+    title: Edit Message
+    redirect: albrightlabs/contact/messages
+    redirectClose: albrightlabs/contact/messages
+
+# Preview page
+preview:
+    title: Preview Message

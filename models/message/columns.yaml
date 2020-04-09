@@ -1,0 +1,22 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    name:
+        label: Name
+        searchable: true
+        sortable: true
+        width: 20%
+    email:
+        label: Email
+        searchable: true
+        sortable: true
+        cssClass: text-bold
+        width: 60%
+    created_at:
+        label: Created
+        sortable: true
+        type: datetime
+        format: M jS, Y g:ia
+        width: 20%

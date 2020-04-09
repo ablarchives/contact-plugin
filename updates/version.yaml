@@ -1,0 +1,4 @@
+1.0.1:
+  - First version of Contact Plugin
+  - Create the messages table
+  - create_messages_table.php
