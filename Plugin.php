@@ -87,9 +87,9 @@ class Plugin extends PluginBase
     {
         return [
             'messages' => [
-                'label'       => 'Messages',
+                'label'       => 'Contact',
                 'url'         => Backend::url('albrightlabs/contact/messages'),
-                'icon'        => 'icon-leaf',
+                'icon'        => 'icon-envelope',
                 'iconSvg'     => 'plugins/albrightlabs/contact/assets/img/icons/plugin-icon.svg',
                 'permissions' => ['albrightlabs.contact.manage_messages'],
                 'order'       => 600,
@@ -109,7 +109,7 @@ class Plugin extends PluginBase
                 'label'       => 'Contact settings',
                 'description' => 'Manage contact page settings.',
                 'category'    => 'Contact',
-                'icon'        => 'icon-phone-square',
+                'icon'        => 'icon-envelope',
                 'class'       => 'Albrightlabs\Contact\Models\Settings',
                 'order'       => 600,
                 'keywords'    => 'contact form',
