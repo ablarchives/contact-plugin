@@ -3,20 +3,25 @@
 # ===================================
 
 columns:
-    name:
-        label: Name
-        searchable: true
-        sortable: true
-        width: 20%
+    read_at:
+        label: ''
+        type: partial
+        path: $/albrightlabs/contact/controllers/messages/_column_read_at.htm
+        sortable: false
+        width: 5%
     email:
         label: Email
         searchable: true
         sortable: true
-        cssClass: text-bold
-        width: 60%
+        cssClass: font-weight-bold
+        type: partial
+        path: $/albrightlabs/contact/controllers/messages/_column_email.htm
+    name:
+        label: Name
+        searchable: true
+        sortable: true
     created_at:
         label: Created
         sortable: true
         type: datetime
         format: M jS, Y g:ia
-        width: 20%

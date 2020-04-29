@@ -1,0 +1,21 @@
+<style type="text/css">
+	.badge {
+		display: inline;
+		padding: .2em .6em .3em;
+		font-size: 75%;
+		font-weight: 700;
+		line-height: 1;
+		color: #fff;
+		text-align: center;
+		white-space: nowrap;
+		vertical-align: baseline;
+		border-radius: .25em;
+		margin-left: 0;
+	}
+	.danger {
+		background-color: #e74c3c;
+	}
+</style>
+<?php if(!$record->read_at): ?>
+  <span class="badge danger">UNREAD</span>
+<?php endif; ?>

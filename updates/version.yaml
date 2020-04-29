@@ -3,4 +3,7 @@
   - Create the messages table
   - create_messages_table.php
 1.0.2:
-  - Updated component default markup
+  - Update component default markup
+1.0.3:
+  - Add support for showing unread messages
+  - update_messages_table_add_read_at.php

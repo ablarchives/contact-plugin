@@ -18,7 +18,7 @@ class Plugin extends PluginBase
         return [
             'name'        => 'Contact',
             'description' => 'A simple contact plugin.',
-            'author'      => 'Albrightlabs',
+            'author'      => 'Albright Labs',
             'icon'        => 'icon-envelope'
         ];
     }
@@ -93,6 +93,8 @@ class Plugin extends PluginBase
                 'iconSvg'     => 'plugins/albrightlabs/contact/assets/img/icons/plugin-icon.svg',
                 'permissions' => ['albrightlabs.contact.manage_messages'],
                 'order'       => 600,
+                'counter'     => ['\AlbrightLabs\Contact\Controllers\Messages', 'getUnreadMessages'],
+                'counterLabel'=> 'Unread messages',
             ],
         ];
     }
