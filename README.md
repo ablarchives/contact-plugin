@@ -7,6 +7,7 @@ A plugin provides a simple contact form, inbox, and new message notifications. A
 - Contact form component
 - Submission inbox
 - Message notifications
+- Supports custom field storage
 
 **Install**  
 There are two options:
