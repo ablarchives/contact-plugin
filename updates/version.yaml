@@ -9,4 +9,4 @@
   - update_messages_table_add_read_at.php
 1.0.4:
   - Add support for custom submission fields on form
-  - update_messages_table_add_customfields.php
+  - update_messages_table_add_custom_fields.php
